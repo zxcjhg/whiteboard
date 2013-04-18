@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align:center;	
+}
+.page {
+	margin:0 auto;
+	width:1200px;
+	height:500px;
+	background:url(../images/whiteboard1.jpg) right no-repeat;
+	background-size:contain;
+}
+
+.canvas {
+	margin:0 auto;
+	width:1200px;
+	height:500px;
+	background:rgba(255,255,255,1);
+	border:1px solid;
+	
+}
+.logo {
+	margin:0 auto;
+	width:1200px;
+	height:50px;
+	background:url(../images/logo1.gif) top left no-repeat;
+	background-size:contain;
+	display:inline-block;
+}
+.image {
+	float:left;
+	margin-left:50px;
+}
+.text {
+	margin:20px;
+	float:left;
+	width:300px;
+	text-align:left;
+}
+
+.head {
+	font-size:35pt;
+}
+.body {
+	margin-top:20px;
+	font-size:14pt;	
+}
+.body a{
+	color:#000000;
+}
+.login {
+	padding:20px;
+	float:right;
+	width:400px;	
+	margin:15px;
+	text-align:right;
+	margin-left:200px;
+}
+
+.login form {
+	position:absolute;
+	padding:20px;
+	background:rgba(255,255,255,0.85);
+	margin:10px;	
+	width:350px;
+	z-index:100;
+	display:none;
+	top:250px;
+}
+.login #joinGroup {
+	
+}
+.login #createGroup{
+}
+.login li {
+	list-style:none;
+	width:100%;
+	height:40px;
+}
+
+.login li input{
+	margin:0 auto;
+	width:95%;
+	height:60%;
+	padding:2px;
+}
+.login li input[type="submit"]{
+	float:right;
+	height:60%;
+	width:20%;
+	border:1px solid;
+	cursor:pointer;
+	background:rgb(253,253,253);
+}
+
+.canvasWrapper {
+	width:900px;
+	height:500px;
+	box-shadow: 1px 1px 10px #000;	
+}
+#canvas1 {
+	cursor:url(../images/marker_cursor.png) 0 19.9, auto;	
+}
+.textarea {
+	display: none;
+	position:absolute;
+	z-index:100;
+	background:rgba(255,255,255,0);
+	font:12px Verdana, Geneva, sans-serif;
+}
+#eraser {
+	background:url(../images/eraser.png);
+	background-size:contain;
+	width:40px;
+	height:40px;	
+	cursor:pointer;
+	opacity:0.6;
+	float:right;
+	display:inline;
+	margin:10px;
+}
+#error {
+	display:none;
+	font: 14pt Verdana, Geneva, sans-serif;
+	margin:4px;
+}	
+
+#marker {
+	background:url(../images/marker.png);	
+	background-size:contain;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	opacity:1;
+	float:right;
+	display:inline;
+	margin:10px;
+}
+#clearAll {
+	background:url(../images/clear-all.png);	
+	background-size:contain;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	opacity:0.6;
+	float:right;
+	display:inline;
+	margin:10px;
+}
+
+#insertText {
+	background:url(../images/text.png);
+	background-size:contain;
+	width:40px;
+	height:40px;
+	cursor:pointer;	
+	opacity:0.6;
+	float:right;
+	display:inline;
+	margin:10px;
+}
+#download{
+	background:url(../images/download.png);
+	background-size:contain;
+	width:40px;
+	height:40px;
+	cursor:pointer;	
+	opacity:0.6;
+	float:right;
+	display:inline;
+	margin:10px;
+}
+
+#eraser:hover, #marker:hover, #clearAll:hover,#insertText:hover, #download:hover {
+	opacity:1;	
+}
+
+.red {
+	color:#FF3366;	
+}
+.green {
+	color:#33CCCC;	
+}
+.signout {
+	display:inline;
+	float:right;
+	font:20pt Verdana, Geneva, sans-serif;
+	margin-top:10px;
+	opacity:0.6;	
+}
+.signout a {
+	color:#000000;
+}
+.signout:hover {
+	opacity:1;	
+}
+.signin {
+	font-size:35pt;
+	width:250px;	
+	background:rgba(255,255,255, 0.75);
+	padding:20px;
+	float:right;
+}
